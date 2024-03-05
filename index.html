@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="GyphyGenerator.css">
+  <title>Giphy Party!</title>
+</head>
+
+<body>
+
+<h1>Giphy Party</h1>
+
+<section class="section">
+<!-- Form portion -->
+<div class="form">
+    <form action="#" id="myForm">
+      <input type="text" name="text" id="text" placeholder="Enter search term" required>
+      <button type="submit" id="subForm">Search Giphy</button> <!-- Once the server question is answered, the form can be sent to a specific location -->
+      <button type="reset" id="resImg">Remove Images</button>
+    </form>
+</div> 
+</section>
+
+<div id="hr"></div>
+
+<section class="section">
+  <div id="giphyDiv">
+    <ul class="giphys">
+    </ul>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
